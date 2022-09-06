@@ -4,3 +4,4 @@
 
 - [ ] mācīties.  
 - [x] elpot
+- [x] saglabāt failu pareizi 🥰
