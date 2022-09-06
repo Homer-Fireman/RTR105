@@ -15,5 +15,5 @@ termināļa komandas:
 - mkdir -> uztaisa directory  
 - nano - texta editors
 - cat -> izlasa failu  
-- rm -> dzēst failu
+- rm -> dzēst failu vai ar rmdir -> directory
 - 
