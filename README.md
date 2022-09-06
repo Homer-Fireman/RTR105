@@ -5,7 +5,8 @@
 termināļa komandas:
 - whoami 
 - pwd - kur atrodas directoria  
-- ls - kas ir pieejams directorija  
+- ls - kas ir pieejams directorija
+- ls -alt -> a-paslēptie objekti; l- more in depht; t- skaārto pēc nesen rediģētā  
 - ar pirmais burts + TAB = komandas, kuras sākas uz šo burtu  
 - man + komanda = manuālis  
 - ar . paslēpj lietas
@@ -16,7 +17,7 @@ termināļa komandas:
 - nano - texta editors
 - cat -> izlasa failu  
 - rm -> dzēst failu vai ar rmdir -> directory
-- histry -> 
+- histry -> test 
   
   git clone https://github.com/Homer-Fireman/RTR105/ .kur gribu
   
