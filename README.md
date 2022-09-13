@@ -32,3 +32,4 @@ termināļa komandas:
  - ar & startē lietas atsevišķi
  - history > history_12092022a.txt  -> novirza vēsturi un saglaba to jaunā failā
  - mv -> pārvietot failu
+ - rm -rf -> del dir ar saturu
