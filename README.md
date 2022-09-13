@@ -18,8 +18,8 @@ termināļa komandas:
 - mkdir -> uztaisa directory  
 - nano - texta editors
 - cat -> izlasa failu  
-- rm -> dzēst failu vai ar rmdir -> directory
-- histry -> ?
+- rm -> dzēst failu vai ar rmdir -> tukšu directory
+- histry -> aplūkot terminālī rakstīto vēsturi
 
   
   git clone https://github.com/Homer-Fireman/RTR105/ .kur gribu
@@ -30,4 +30,5 @@ termināļa komandas:
  - ps aux - palaistie procesi
  - ps -aux | grep -> meklēt procesu
  - ar & startē lietas atsevišķi
- - 
+ - history > history_12092022a.txt  -> novirza vēsturi un saglaba to jaunā failā
+ - mv -> pārvietot failu
