@@ -4,6 +4,8 @@
 
 termināļa komandas:
 - whoami 
+- uname -> OS name
+- echo $0 -> shell paveids
 - pwd - kur atrodas directoria  
 - ls - kas ir pieejams directorija
 - ls -alt -> a-paslēptie objekti; l- more in depht; t- skaārto pēc nesen rediģētā  
@@ -17,7 +19,11 @@ termināļa komandas:
 - nano - texta editors
 - cat -> izlasa failu  
 - rm -> dzēst failu vai ar rmdir -> directory
-- histry -> test 
+- histry -> ?
+- ps aux - palaistie procesi
+- ps -aux | grep -> meklēt procesu
+- ar & startē lietas atsevišķi
+- 
   
   git clone https://github.com/Homer-Fireman/RTR105/ .kur gribu
   
