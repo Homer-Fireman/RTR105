@@ -20,12 +20,14 @@ termināļa komandas:
 - cat -> izlasa failu  
 - rm -> dzēst failu vai ar rmdir -> directory
 - histry -> ?
-- ps aux - palaistie procesi
-- ps -aux | grep -> meklēt procesu
-- ar & startē lietas atsevišķi
-- 
+
   
   git clone https://github.com/Homer-Fireman/RTR105/ .kur gribu
   
   
+  # 6. septembris
   
+ - ps aux - palaistie procesi
+ - ps -aux | grep -> meklēt procesu
+ - ar & startē lietas atsevišķi
+ - 
