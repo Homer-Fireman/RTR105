@@ -1,5 +1,5 @@
 #!/bin/bash
-history > history_`date +"%d-%m-%Y"`ßß
+history > history_`date +"%d-%m-%Y"`.txt
 git add .
 git config --global user.name Homer-Fireman
 git commit -m "scripta_izmainas"
