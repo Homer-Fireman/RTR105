@@ -288,3 +288,30 @@
   288  /Users/markuss/rtr105/git-upload
   289  ls
   290  history > history_20092022a.txt
+  291* git-upload
+  292  pwd
+  293  ls
+  294  cat git-upload
+  295  pwd
+  296  ls
+  297  cd
+  298  pwd
+  299  rm -rf rtr105
+  300  ls
+  301  ls
+  302  git clone https://github.com/Homer-Fireman/RTR105/
+  303  cd rtr105
+  304  pwd
+  305  ls
+  306  ls -l
+  307  $PATH
+  308  PATH=$PATH
+  309  $PATH
+  310  PATH=$PATH:./
+  311  github-upload
+  312  $PATH
+  313  PATH=$PATH:./
+  314  github-uploadpwd
+  315  ls
+  316  git-upload
+  317  history > history_20092022a.txt
