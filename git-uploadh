@@ -1,0 +1,6 @@
+#!/bin/bash
+history > history_`date +"%d-%m-%Y"`ßß
+git add .
+git config --global user.name Homer-Fireman
+git commit -m "scripta_izmainas"
+git push origin main
