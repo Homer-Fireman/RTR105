@@ -1,5 +1,5 @@
 #!/bin/bash
 git add . 
 git config --global user.name Homer-Fireman
-git commit -m "scripta_izmainas"
+git commit -m "scripta_izmainas($1)"
 git push origin main
