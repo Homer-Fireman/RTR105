@@ -275,3 +275,16 @@
   275  ls
   276  history
   277  history > history_20092022a.txt
+  278  ls
+  279  nano git-upload
+  280  cat history_20092022a.txt
+  281  ls
+  282  cat git-upload
+  283  ls -l
+  284  chmod 764 git-upload
+  285  ls -l
+  286  pwd
+  287  /Users/markuss/rtr105 git-upload
+  288  /Users/markuss/rtr105/git-upload
+  289  ls
+  290  history > history_20092022a.txt
