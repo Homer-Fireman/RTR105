@@ -25,7 +25,7 @@ termināļa komandas:
   git clone https://github.com/Homer-Fireman/RTR105/ .kur gribu
   
   
-  # 6. septembris
+ # 13. septembris
   
  - ps aux - palaistie procesi
  - ps -aux | grep -> meklēt procesu
@@ -33,3 +33,13 @@ termināļa komandas:
  - history > history_12092022a.txt  -> novirza vēsturi un saglaba to jaunā failā
  - mv -> pārvietot failu
  - rm -rf -> del dir ar saturu
+
+  # 20. septembris
+  
+ - (-) -> norāda uz failu
+ - cd .. -> pacelties līmeni augstāk
+ - l -> links aka shortcut
+ - chmod -> maina faila tiesības
+ - chmod 764 -> pieškir tiesības izpildīt fialu
+ - grep -> filtrs, kurš meklē paternu
+ - nenorādod adresi, tiek pārskatītas komandas, kas ir $PATH
