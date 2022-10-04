@@ -1,0 +1,458 @@
+    1  ls -l
+    2  chsh -s /bin/bash
+    3  chsh -s /bin/bash
+    4  ls
+    5  ls -l
+    6  clear
+    7  ls -a
+    8  exit
+    9  pwd
+   10  ls
+   11  ls -al
+   12  cd ..
+   13  cs ~
+   14  cd ~
+   15  ls -lta
+   16  cd
+   17  cd ..
+   18  pwd
+   19  cd
+   20  pwd
+   21  pwd
+   22  cd ..
+   23  pwd
+   24  cd
+   25  pwd
+   26  clear
+   27  mkdir test
+   28  ls -alk
+   29  ls -lta
+   30  cd test
+   31  pwd
+   32  nano
+   33  la
+   34  ls
+   35  ls
+   36  cat def.txt
+   37  pwd
+   38  dc
+   39  pwd
+   40  c
+   41  cd
+   42  pwd
+   43  cd test
+   44  /abc$
+   45  hexdump -c def.txt
+   46  /ABC$ hexdump -c def.txt
+   47  pwd
+   48  ls
+   49  rm def.txt
+   50  ls
+   51  ls
+   52  cd
+   53  rmdir tests
+   54  rmdir test
+   55  ls
+   56  ls -alt
+   57  clear
+   58  git clone https://github.com/Homer-Fireman/RTR105/
+   59  git clone https://github.com/Homer-Fireman/RTR105/
+   60  git clone https://github.com/Homer-Fireman/RTR105/
+   61  pwd
+   62  cd RTR105
+   63  pwd
+   64  ls
+   65  nano README.md
+   66  cat redme.md
+   67  cat readme.md
+   68  git add .
+   69  git config --global user.email  markusssube9@gmail.com 
+   70  git config --global user.name markuss
+   71  -m "Class_02_onsite"
+   72  git commit-m "Class_02_onsite"
+   73  git commit -m "Class_02_onsite"
+   74  git push origin master
+   75  git push origin master
+   76  git remote add origin https://github.com/Homer-Fireman/RTR105
+   77  cat readme.md
+   78  pwd
+   79  ls
+   80  git init
+   81  git add
+   82  git add .
+   83  git status
+   84  git push
+   85  git status
+   86  pwd
+   87  git remote add origin https://github.com/Homer-Fireman/RTR105
+   88  git push origin master
+   89  /Volumes/Photoshop\ 23.2\ U2B/U2B/Adobe\ Photoshop\ 2022 ; exit;
+   90  firefox
+   91  safari
+   92  start chrome
+   93  chrome
+   94  start chrome "http://localhost"
+   95  open -a "Google Chrome" index.html 
+   96  open -a "Google Chrome" index.html 
+   97  echo $0
+   98  echo
+   99  ps
+  100  ps aux
+  101  ps -aux | chrome
+  102  ps -aux | grep chrome
+  103  ps -aux | grep 
+  104  ps -aux | grep Google
+  105  clear
+  106  history > history_12092022a.txt
+  107  ls -lt
+  108  cat history_12092022a.txt
+  109  pwd
+  110  ls
+  111  cp history_12092022a.txt RTR105
+  112  rm history_12092022a.txt
+  113  ls
+  114  cd rtr105
+  115  ls
+  116  rmdir rtr105
+  117  man rm
+  118  man rmdir
+  119  rmdir rtr105
+  120  man rmdir
+  121  rmdir -p  rtr105
+  122  rmdir -r  rtr105
+  123  rmdir pvr  rtr105
+  124  rmdir -r  rtr105
+  125  rmdir --r  rtr105
+  126  ls
+  127  rmdir --r  RTR105
+  128  rmdir -rf  RTR105
+  129  clear
+  130  ls
+  131  pwd
+  132  git add
+  133  git add .
+  134  git config --global user.email markusssube9@gmail.com 
+  135  git config --global user.name Homer-Fireman 
+  136  git commit - m 
+  137  git commit - m "class_03a"
+  138  git commit - m "history_12092022a.txt"
+  139  git commit -m ""
+  140  git commit -m "3stunda"
+  141  git push origin main
+  142  git push origin main
+  143  history 
+  144  git push origin main
+  145  git pull
+  146  git push origin main
+  147  pwd
+  148  git push origin main~
+  149  pwd
+  150  cd
+  151  pwd
+  152  ls
+  153  rm RTR105
+  154  rm -R  RTR105
+  155  ls
+  156  cd RTR105
+  157  ls
+  158  pwd
+  159  ld
+  160  ls
+  161  pwd
+  162  p
+  163  ls
+  164  rm -rf RTR105
+  165  cd
+  166  pwd
+  167  ls
+  168  cd rtr105
+  169  pwd
+  170  ls
+  171  cd
+  172  ls
+  173  rm -rf RTR105
+  174  ls
+  175  git pull
+  176  git pull https://github.com/Homer-Fireman/RTR105/
+  177  https://github.com/Homer-Fireman/RTR105
+  178  git clone https://github.com/Homer-Fireman/RTR105/
+  179  history > history_12092022a.txt
+  180  pwd
+  181  ls
+  182  mv
+  183  mv history_12092022a.txt RTR105
+  184  ls
+  185  cd pwd
+  186  cd RTR105
+  187  ls
+  188  add .
+  189  git add.
+  190  git add .
+  191  git commit -m 'add file
+  192  git commit -m "add file"
+  193  git config --global user.email markusssube9@gmail.com 
+  194  pwd
+  195  '
+  196  uname
+  197  man uname
+  198  man uname -a
+  199  uname -a
+  200  crome
+  201  clear
+  202  history
+  203  pwd
+  204  cd rtr105
+  205  pwd
+  206  ls
+  207  git reset
+  208  git add history_12092022a.txt
+  209  git git commit -m 'add history12092022'
+  210  git commit -m 'add history12092022'
+  211  git push -u origin master
+  212  git
+  213  git restore
+  214  git add history_12092022a.txt
+  215  cd rtr105
+  216  git add history_12092022a.txt
+  217  git commit -m 'add_history130922'
+  218  git push
+  219  color 4
+  220  color
+  221  colors 4
+  222  $ urxvt -bg black -fg green -cr teal
+  223   urxvt -bg black -fg green -cr teal
+  224  pwd
+  225  cd
+  226  ls
+  227  pwd
+  228  ls
+  229  rmdir -rf  RTR105
+  230  ls
+  231  rm -R  RTR105
+  232  yy
+  233  y
+  234  y
+  235  y
+  236  y
+  237  y
+  238  y
+  239  ls
+  240  ls
+  241  whereis ls
+  242  pwd
+  243  cd bin
+  244  cd /bin
+  245  pwd
+  246  ls
+  247  sleep
+  248  echo
+  249  echo $0
+  250  ls
+  251  ls -lt
+  252  echo $0
+  253  echo $0
+  254  pwd
+  255  ls
+  256  ls -l
+  257  cd ..
+  258  pwd
+  259  cd
+  260  pwd
+  261  ls
+  262  cd /bin
+  263  ls
+  264  ls -l
+  265  cat ls
+  266  echo $PATH
+  267  git clone https://github.com/Homer-Fireman/RTR105/
+  268  kill
+  269  exit
+  270  date
+  271  date +"%FORMAT"
+  272  date +"%FORMAT"
+  273  date +'%m/%d/%Y'
+  274  https://github.com/Homer-Fireman/RTR105/
+  275  git clone https://github.com/Homer-Fireman/RTR105/
+  276  pwd
+  277  ls
+  278  cd rtr105
+  279  ls
+  280  history
+  281  history > history_20092022a.txt
+  282  ls
+  283  nano git-upload
+  284  cat history_20092022a.txt
+  285  ls
+  286  cat git-upload
+  287  ls -l
+  288  chmod 764 git-upload
+  289  ls -l
+  290  pwd
+  291  /Users/markuss/rtr105 git-upload
+  292  /Users/markuss/rtr105/git-upload
+  293  ls
+  294  history > history_20092022a.txt
+  295  git-upload
+  296  pwd
+  297  ls
+  298  cat git-upload
+  299  pwd
+  300  ls
+  301  cd
+  302  pwd
+  303  rm -rf rtr105
+  304  ls
+  305  ls
+  306  git clone https://github.com/Homer-Fireman/RTR105/
+  307  cd rtr105
+  308  pwd
+  309  ls
+  310  ls -l
+  311  $PATH
+  312  PATH=$PATH
+  313  $PATH
+  314  PATH=$PATH:./
+  315  github-upload
+  316  $PATH
+  317  PATH=$PATH:./
+  318  github-uploadpwd
+  319  ls
+  320  git-upload
+  321  history > history_20092022a.txt
+  322  git-upload
+  323  nano git-ipload
+  324  nano git-upload
+  325  nano git-uploadh
+  326  ls
+  327  git-uploadh
+  328  chmod 764 git-uploadh
+  329  ls -l
+  330  git-uploadh
+  331  nano git-uploadh
+  332  nano git-uploadh
+  333  nano test_sh1
+  334  chmod 764 test_sh1
+  335  test_sh1
+  336  1
+  337  1
+  338  test_sh1
+  339  test_sh1
+  340  nano test_sh1
+  341  test_sh1
+  342  es
+  343  test_sh1 Markuss Sube
+  344  test_sh1 tu es
+  345  nano test_sh1
+  346  nano test_sh1
+  347  nano test_sh1
+  348  nano test_sh1.sh
+  349  test_sh1 Markuss Sube
+  350  test_sh1.sh Markuss Sube
+  351  ls
+  352  rm test_sh1.sh
+  353  ls
+  354  test_sh1 tu es vins
+  355  nano git-upload
+  356  git-uploadh
+  357  git-upload lekcija
+  358  nano git-upoloadh
+  359  nano git-uploadh
+  360  nano git-uploadh
+  361  git-uploadh
+  362  pwd
+  363  cd download
+  364  ls
+  365  cd downloads
+  366  ls
+  367  zip -er 2b.zip 2b
+  368  zip -er 2b.zip 2b/.
+  369  pwd
+  370  cd downloads
+  371  zip -er 2b.zip 2b/.
+  372  pwd
+  373  cd downloads
+  374  pwd
+  375  zip -er 2bs.zip Bas/.
+  376  clean
+  377  new
+  378  pwd
+  379  ls
+  380  rm -rf rtr105
+  381  ls
+  382  git clone https://github.com/Homer-Fireman/RTR105/
+  383  ls
+  384  cd rtr105
+  385  mkd History
+  386  mkdir History
+  387  ls
+  388  cd c
+  389  ls
+  390  nano first.c
+  391  nano first.c
+  392  clean
+  393  lear
+  394  clear
+  395  nano tests.c
+  396  cat tests.c
+  397  gcc tests.c -o tests.out
+  398  ls -l tests.out
+  399  /tests.out
+  400  ./tests.out
+  401  /tests.outpwd
+  402  pwd
+  403  ls
+  404* 
+  405  ./printf
+  406  ls
+  407* 
+  408  ls
+  409  ./printf
+  410  ./scanf
+  411  ./git-upload
+  412  cd..
+  413  ./git-upload
+  414  ls
+  415  cd ..
+  416  ./git-upload
+  417  ls
+  418* man
+  419  pwd
+  420  ls
+  421  mv git-uploadh History
+  422  ls
+  423  mv history_12092022a.txt History
+  424  mv history_20092022a.txt History
+  425  ls
+  426  mv history_27-09-2022.txt History
+  427  cd history
+  428  ls
+  429  cd ..
+  430  ls
+  431  ./ git upload
+  432  ./ git-upload
+  433  ./ git-upload
+  434  ls
+  435  ./git-upload
+  436  cd history
+  437  ls
+  438  cat git-uploadh
+  439  ./git-uploadh
+  440  history > history_`date +"%d-%m-%Y"`.txt
+  441  ls
+  442  cat history_04-10-2022.txt
+  443  ./git-uploadh
+  444  cd ..
+  445  /.git-upload
+  446  ls
+  447  ./git-upload
+  448  /.git-upload
+  449  pwd
+  450  ls
+  451  cd hisory
+  452  cd history
+  453  tree
+  454  pwd
+  455  ls
+  456  ./git-uploadh
+  457  cat history_04-10-2022.txt
+  458  history > history_`date +"%d-%m-%Y"`.txt
