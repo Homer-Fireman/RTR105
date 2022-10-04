@@ -52,5 +52,18 @@ termināļa komandas:
  - c valodas kodu pabeidz ar return 0, pa vidu var ielikt return 1 utt, lai pēc tam pārbaudītu, līdz kurienei kods strādā, bet funkcija strādā līdz pirmam    return
  - echo $? -> ipriekšējas komandas/faila izpildes rezultāts
  - hexdump -> izmet hex vērtības
- - 
+
+
+  # 27. septembris
+  
+ - oktālie skaitļi ir ar lieku 0 sākumā, bet hexa ar 0x
+ - gcc -save teps saglabā ar starprezultātiem
+ - Datu porcijas -> 1char ir viens burts, kas aizņem 1Byt, jeb 8bit, kas ir int0-255
+ - \n -> Newline
+ - \t -> Horizontal Tab
+ - \v -> Vertical Tab
+ - \b -> Backspace (vienu vietu atpakaļ kursoru)
+ - \a -> Alert (Beep, Bell)
+ - \r -> kursors uz rindas sākumu
+ https://en.wikipedia.org/wiki/Escape_sequences_in_C
 
