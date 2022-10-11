@@ -1,2 +1,3 @@
 # Ignore compailed executables
 *.out
+*.o
