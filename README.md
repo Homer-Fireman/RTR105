@@ -67,3 +67,9 @@ termināļa komandas:
  - \r -> kursors uz rindas sākumu
  https://en.wikipedia.org/wiki/Escape_sequences_in_C
 
+
+
+
+  # 11. oktobris
+  
+ - lai attēlotu "" vai /, pirms tā jāliek /
