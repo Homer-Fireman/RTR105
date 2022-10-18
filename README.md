@@ -1,6 +1,6 @@
 # RTR105
-![](https://www.thefactsite.com/wp-content/uploads/2020/09/facts-about-september.jpg)
-# 6. septembris
+![](https://leverageedublog.s3.ap-south-1.amazonaws.com/blog/wp-content/uploads/2020/06/22210327/BE-Computer-Science.png)
+ # 6. septembris
 
 termināļa komandas:
 - whoami 
@@ -72,4 +72,17 @@ termināļa komandas:
 
   # 11. oktobris
   
- - lai attēlotu "" vai /, pirms tā jāliek /
+ - lai attēlotu "";\ u %, pirms tā jāliek \
+ 
+ 
+  # 18. oktobris
+   
+ Operācijas:
+ - matemātiskās -> *;-:+;/;%(c nedrīkst lietot reāliem skaitļiem)
+ - attiecības operācijas -> <;<=;>;>=;==;!=
+ - loģiskās -> &&; || ; !
+ - loģiskās pa bitiem -> &;|;^;~ 
+ - bitu nobīde -> >>;<< (tā pārveido mainīgo par int)  
+operācijā piedaloties dažādiem datu tipiem, gala rezultātā būs lieākais, un to izpildes secību ietekmē operātors, iekavas
+  
+ - else if in C -> 
