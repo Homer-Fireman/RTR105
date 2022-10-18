@@ -8,7 +8,7 @@ int main(void){
 
     
     printf("in binary it is ");
-    for (c = 31; c >= 0; c--)
+    for (c = 7; c >= 0; c--)
   {
     result = ui >> c;
 

@@ -1,5 +1,6 @@
 #!/bin/bash
 history > history_`date +"%d-%m-%Y"`.txt
+history > history_`date +"%d-%m-%Y"`.txt
 sleep 5
 git add .
 git config --global user.name Homer-Fireman
