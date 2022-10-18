@@ -1,0 +1,473 @@
+  164  ./14-27-09.mkv
+  165  /Users/markuss/RTR105/git-upload ; exit;
+  166  pwd
+  167  ls
+  168  rm -rf rtr105
+  169  ls
+  170  git clone https://github.com/Homer-Fireman/RTR105
+  171  git clone https://github.com/Homer-Fireman/RTR105
+  172  git clone https://github.com/Homer-Fireman/RTR105/
+  173  xcode-select --install
+  174  git clone https://github.com/Homer-Fireman/RTR105/
+  175  ls
+  176  cd rtr105
+  177  pwd
+  178  mdir C
+  179  mkdir C
+  180  ls
+  181  nano git-uploadh
+  182  cd c
+  183  pwd
+  184  nano
+  185  nano first.c
+  186  ls
+  187  gcc first.c
+  188  man gcc
+  189  ls -l
+  190  a.out
+  191  pwd
+  192  /Users/markuss/rtr105/c/a.out
+  193  ~/rtr105/c/a.out
+  194  pwd
+  195  ./a.out
+  196  ~
+  197  ~
+  198  cd ~
+  199  tree
+  200  tree
+  201  pwd
+  202  cd ..
+  203  tree
+  204  sudo port install tree
+  205  cd c
+  206  cd rtr105
+  207  pwd
+  208  ls
+  209  ls
+  210  pwd
+  211  ls
+  212  ls -l
+  213  cd markuss
+  214  ld
+  215  ls
+  216  cd rtr105
+  217  cd c
+  218  ls
+  219  nano first.c
+  220  echo
+  221  echo $?
+  222  pwd
+  223  ls
+  224  nano first.c
+  225  nano first.c
+  226  gcc first.c
+  227  ls
+  228  nano first.c
+  229  nano first.c
+  230  nano first.c
+  231  gcc first.c
+  232  ls
+  233  ./a.out
+  234  echo $?
+  235  gcc first.c -o helloworld
+  236  ls
+  237  ./helloworld
+  238  nano
+  239  ls
+  240  gcc first.c -s -o helloworld
+  241  gcc first.c -S -save-temps -o helloworld
+  242  gcc first.c -save-temps -o helloworld
+  243  pwd
+  244  cd rtr105
+  245  pwd
+  246  ./
+  247  /
+  248  .
+  249  cd .
+  250  pwd
+  251  cd ./
+  252  pwd
+  253  cd-
+  254  cd -
+  255  cd ..
+  256  pwd
+  257  ls
+  258  git-uploadh
+  259  git-uploadh
+  260  ./git-uoloadh
+  261  ./git-uploadh
+  262  git pull
+  263  it config pull.rebase false
+  264  git config pull.rebase true
+  265  git pull
+  266  ./git-uoloadh
+  267  ./git-uoload
+  268  ./git-uoloadh
+  269  ls
+  270  git pull
+  271  ./git-uoload
+  272  ./git-uopload
+  273  ./git-upload
+  274  ./git-uploadh
+  275  ./git-uploadh
+  276  cat git-upload
+  277  cat git-uploadh
+  278  ls
+  279  history
+  280  history > history_`date +"%d-%m-%Y"`.txt
+  281  ls
+  282  history_27-09-2022.txt
+  283  cat history_27-09-2022.txt
+  284  cat git-upload
+  285  ./git-upload
+  286  pwd
+  287  ls
+  288  ls -la
+  289  cd c
+  290  ls
+  291  pwd
+  292  cd ./
+  293  pws
+  294  pwd
+  295  cd /.
+  296  pws
+  297  pwd
+  298  ls
+  299  cd users
+  300  ls
+  301  cd markuss
+  302  ls
+  303  cd rtr105
+  304  ls
+  305  /. git-upload
+  306  ./ git-upload
+  307  pwd
+  308  /. git-upload
+  309  /Users/markuss/RTR105/git-upload ; exit;
+  310  clean
+  311  new
+  312  pwd
+  313  ls
+  314  rm -rf rtr105
+  315  ls
+  316  git clone https://github.com/Homer-Fireman/RTR105/
+  317  ls
+  318  cd rtr105
+  319  mkd History
+  320  mkdir History
+  321  ls
+  322  cd c
+  323  ls
+  324  nano first.c
+  325  nano first.c
+  326  clean
+  327  lear
+  328  clear
+  329  nano tests.c
+  330  cat tests.c
+  331  gcc tests.c -o tests.out
+  332  ls -l tests.out
+  333  /tests.out
+  334  ./tests.out
+  335  /tests.outpwd
+  336  pwd
+  337  ls
+  338  ./printf
+  339  ls
+  340  ls
+  341  ./printf
+  342  ./scanf
+  343  ./git-upload
+  344  cd..
+  345  ./git-upload
+  346  ls
+  347  cd ..
+  348  ./git-upload
+  349  ls
+  350  man
+  351  pwd
+  352  ls
+  353  mv git-uploadh History
+  354  ls
+  355  mv history_12092022a.txt History
+  356  mv history_20092022a.txt History
+  357  ls
+  358  mv history_27-09-2022.txt History
+  359  cd history
+  360  ls
+  361  cd ..
+  362  ls
+  363  ./ git upload
+  364  ./ git-upload
+  365  ./ git-upload
+  366  ls
+  367  ./git-upload
+  368  cd history
+  369  ls
+  370  cat git-uploadh
+  371  ./git-uploadh
+  372  history > history_`date +"%d-%m-%Y"`.txt
+  373  ls
+  374  cat history_04-10-2022.txt
+  375  ./git-uploadh
+  376  cd ..
+  377  /.git-upload
+  378  ls
+  379  ./git-upload
+  380  /.git-upload
+  381  pwd
+  382  ls
+  383  cd hisory
+  384  cd history
+  385  tree
+  386  pwd
+  387  ls
+  388  ./git-uploadh
+  389  cat history_04-10-2022.txt
+  390  history > history_`date +"%d-%m-%Y"`.txt
+  391  cat history_04-10-2022.txt
+  392  cat history_04-10-2022.txt
+  393  cat history_04-10-2022.txtpwd
+  394  pwd
+  395  cd..
+  396  cd ..
+  397  ls
+  398  cd c
+  399  ls
+  400  mkdir PU1:PT1
+  401  ls
+  402  mv PU1:PT1.c PU1:PT1
+  403  mv PU1:PT1.dSYM PU1:PT1
+  404  ls
+  405  mv PU1:PT1.dSYM PU1:PT1
+  406  cd ..
+  407  ./git-upload
+  408  mkdir PU1:PT1
+  409  lds
+  410  ls
+  411  rm PU1:PT1
+  412  rm -rf  PU1:PT1
+  413  ls
+  414  cd c
+  415  rm PU1:PT1
+  416  ls
+  417  cd ..
+  418  cd ..
+  419  ls
+  420  rm -rf  RTR105
+  421  clear
+  422  git clone https://github.com/Homer-Fireman/RTR105
+  423  ls
+  424  cd rtr105
+  425  ls
+  426  cd c
+  427  ls
+  428  mkdir PU1:PT1
+  429  mkdir PU1:PT1 
+  430  mkdir PU1_PT1 
+  431  ls
+  432  ls
+  433  pwd
+  434  cd..
+  435  cd ..
+  436  ls
+  437  ./git-upload
+  438  pwd
+  439  cd c
+  440  ls
+  441  cd PU1_PT1
+  442  ./PU1_PT1
+  443  ls
+  444  ./PU1:PT1
+  445  rm -rf  RTR105
+  446  pwd
+  447  cd ..
+  448  cd ..
+  449  cd ..
+  450  rm -rf  RTR105
+  451  ls
+  452  git clone https://github.com/Homer-Fireman/RTR105
+  453  rm -rf  RTR105
+  454  ls
+  455  git clone https://github.com/Homer-Fireman/RTR105
+  456   arch -x86_64 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/ins tall/master/install)" < /dev/null 2> /dev/null
+  457  arch -x86_64 brew install MinGW-w64
+  458  arch -x86_64 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/ins tall/master/install)" < /dev/null 2> /dev/null
+  459  pwd
+  460  ls
+  461  cd rtr105
+  462  ls
+  463  ./git-upload
+  464  cd c
+  465  ls
+  466  cd PU1_PT1
+  467  gcc PU1:PT1 - run
+  468  gcc PU1:PT1 -o run
+  469  ls
+  470  gcc PU1:PT1 -o run.out
+  471  ls
+  472  gcc PU1:PT1 -o run.out
+  473  ls
+  474  gcc PU1:PT1 -o PU1:PT1.out
+  475  gcc PU1:PT1 -o PU1:PT1.out
+  476  gcc PU1:PT1.c -o PU1:PT1.out
+  477  ./PU1:PT1.out
+  478  gcc PU1:PT1.c -o PU1:PT1.out
+  479  ./PU1:PT1.out
+  480  gcc PU1:PT1.c -o PU1:PT1.out
+  481  ./PU1:PT1.out
+  482  gcc PU1:PT1.c -o PU1:PT1.out
+  483  gcc PU1:PT1.c -o PU1:PT1.out
+  484  ./PU1:PT1.out
+  485  gcc PU1:PT1.c -o PU1:PT1.out
+  486  ./PU1:PT1.out
+  487  gcc PU1:PT1.c -o PU1:PT1.out
+  488  gcc PU1:PT1.c -o PU1:PT1.out
+  489  gcc PU1:PT1.c -o PU1:PT1.out
+  490  ./PU1:PT1.out
+  491  gcc PU1:PT1.c -o PU1:PT1.out
+  492  ./PU1:PT1.out
+  493  pwd
+  494  cd ..
+  495  cd ..
+  496  ./git-upload
+  497  /Volumes/Wondershare\ Filmora\ X\ 11.7.3/Open\ Gatekeeper\ friendly ; exit;
+  498  pwd
+  499  cd rtr105
+  500  ls
+  501  ./git-upload
+  502  git pull
+  503  ./git-upload
+  504  git pull
+  505  cd ..
+  506  cd ..
+  507  man rm
+  508  rm -rf rtr105
+  509  ls
+  510  cd markuss
+  511  ls
+  512  rm -rf rtr105
+  513  ls
+  514  git clone https://github.com/Homer-Fireman/RTR105
+  515  ls
+  516  cd rtr105
+  517  ls
+  518  cd c
+  519  ls
+  520  cd PU2_PT2
+  521  ls
+  522  ./PU2:PT2
+  523  ./PU2:PT2
+  524  ./PU2:PT2
+  525  ./PU2:PT2
+  526  ./PU2:PT2
+  527  ./PU2:PT2
+  528  ./PU2:PT2
+  529  ./PU2:PT2
+  530  ./PU2:PT2
+  531  ./PU2:PT2
+  532  ./PU2:PT2
+  533  ./PU2:PT2
+  534  ./PU2:PT2
+  535  ./PU2:PT2
+  536  ./PU2:PT2
+  537  ./PU2:PT2
+  538  ./PU2:PT2
+  539  ./PU2:PT2
+  540  ./PU2:PT2
+  541* 
+  542  ./PU2:PT2
+  543  ./PU2:PT2
+  544  ./PU2:PT2
+  545  ./PU2:PT2
+  546  ./PU2:PT2
+  547  ./PU2:PT2
+  548  ./PU2:PT2
+  549  ./PU2:PT2
+  550  ./PU2:PT22
+  551  ./PU2:PT22
+  552  ./PU2:PT22
+  553  ./PU2:PT2
+  554  pwd
+  555  cd ..
+  556  cd ..
+  557  ./ git-upload
+  558  ./git-upload
+  559  git pull 
+  560  pwd
+  561  cd c
+  562  ls
+  563  cd pu_pt2
+  564  cd PU2_PT2
+  565  LS
+  566  ./ PU2:PT2
+  567  ./PU2:PT2
+  568  pwd
+  569  git pull 
+  570  pwd
+  571  cd ..
+  572  pwd
+  573  ls
+  574  cd operations
+  575  ls
+  576  ./paraugs
+  577  ./paraugs
+  578  ./paraugs
+  579  ./paraugs
+  580  ./paraugs
+  581  ./paraugs
+  582  ./paraugs
+  583  ./paraugs
+  584  ./paraugs
+  585  ./paraugs
+  586  ./paraugs
+  587  ./paraugs
+  588  ./paraugs
+  589  ./paraugs
+  590  ./paraugs
+  591  ./paraugs
+  592  ./paraugs
+  593  ./paraugs
+  594  ls
+  595  pwd
+  596  cd ..
+  597  pwd
+  598  ls
+  599  cd PU2_PT2
+  600  ls
+  601  ./PU2:PT2
+  602  pw
+  603  pwd
+  604  cd..
+  605  cd ..
+  606  cd ..
+  607  ls
+  608  cd HISTORY
+  609  pwd
+  610  cd ..
+  611  ls
+  612  cd History
+  613  ls
+  614  history > history_`date +"%d-%m-%Y"`.txt
+  615  ls
+  616  cat history_18-10-2022.txt
+  617  sleep 5
+  618  sleep 5
+  619  ls
+  620  ./git-upload
+  621  ./git-uploadh
+  622  ./git-uploadh
+  623  pwd
+  624  ./git-uploadh
+  625  cat git-uploadh
+  626  ./git-uploadh
+  627  cat git-uploadh
+  628  cat git-uploadh
+  629  ./git-uploadh
+  630  pwd
+  631  ls
+  632  ./git-uploadh
+  633  ./git-uploadh
+  634  ./git-uploadh
+  635  ls
+  636  history > history_`date +"%d-%m-%Y"`.txt
