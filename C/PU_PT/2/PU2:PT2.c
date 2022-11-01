@@ -5,8 +5,8 @@ int main(void){
   char dec, i, res;
 
   printf("Please input 1 natuar number: \n");
-  scanf("%d", &dec);
-  printf("In BIN %d is ",dec);
+  scanf("%hhd", &dec);
+  printf("In BIN %hhd is ",dec);
 
   for (i = 7; i >= 0; i--){
     res = dec >> i;
