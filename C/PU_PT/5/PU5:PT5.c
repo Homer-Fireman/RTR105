@@ -4,8 +4,7 @@
 int main(void){
 
     char varable[10];
-    int dec;
-    int i =1;
+    int dec,i;
     int res=1;
 
     printf("Input one decimal number\n");
@@ -14,14 +13,12 @@ int main(void){
     //scanf("%s",varable);
 
    if(dec>=0){
-    while(i<=dec){
+    for(i=1;i<=dec;i++){
         res=res*i;
-        i++;
     }
    }else{
-    while(i<=-dec){
+    for(i=1;i<=-dec;i++){
         res=res*i;
-        i++;
     }
    }
 
