@@ -90,7 +90,7 @@ operācijā piedaloties dažādiem datu tipiem, gala rezultātā būs lieākais,
   # 25. oktobris
  
 Cikla operātori:
- - while() -> izpilda kamēr iekavas "true"
+ - while() -> izpilda kamēr iekavas "true", secīgi bez pārtrukumiem
  - do while -> do {  
   // code block to be executed (pirmo rezi pilda bez pārbudes)  
   }  
@@ -99,3 +99,11 @@ Cikla operātori:
    
 "true" -> izteiksmes rezultātā bitu secībā ir vismaz viens 1
 "false" -> aka absolūtā nulle, visi biti ar stāvokli 0
+
+
+#1.Novebris
+
+ -Debugeris -> gcc ar -g un tad atver .out ar gdb ; tad jāliek brakpoint
+ -Pirms main deklerē funkciju, pēc main, ko funkcija dara
+ -void neko neatgriež
+ -funkciju main var izmantot ar argumentiem
