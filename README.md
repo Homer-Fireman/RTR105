@@ -92,9 +92,9 @@ operācijā piedaloties dažādiem datu tipiem, gala rezultātā būs lieākais,
 Cikla operātori:
  - while() -> izpilda kamēr iekavas "true"
  - do while -> do {  
-  // code block to be executed  
-}  
-while (condition);
+  // code block to be executed (pirmo rezi pilda bez pārbudes)  
+  }  
+   while (condition); // pārbauda vai "true"
  - for( ; ; ) -> darbība pirms pirmā semikola tiek izpildīta tikai vienu reizi, ja pirms 2. semikola "true", tiek veikts for cikls un pēc tam mainīgā izmaiņa aiz 2. semikola
    
 "true" -> izteiksmes rezultātā bitu secībā ir vismaz viens 1
