@@ -34,7 +34,7 @@ int main(void){
             char dec;
             char res=1;
             printf("Input one decimal number\n");
-            scanf("%d",&dec);
+            scanf("%hhd",&dec);
 
             if(dec<0){
                 printf("Error! Factorial of a negative number doesn't exist.\n");
