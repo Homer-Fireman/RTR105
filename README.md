@@ -101,9 +101,14 @@ Cikla operātori:
 "false" -> aka absolūtā nulle, visi biti ar stāvokli 0
 
 
-#1.Novebris
+# 1.Novebris
 
  -Debugeris -> gcc ar -g un tad atver .out ar gdb ; tad jāliek brakpoint
  -Pirms main deklerē funkciju, pēc main, ko funkcija dara
  -void neko neatgriež
  -funkciju main var izmantot ar argumentiem
+ 
+ 
+ # 8.novembris
+ 
+ - s
