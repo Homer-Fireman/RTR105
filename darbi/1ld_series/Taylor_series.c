@@ -1,21 +1,23 @@
 #include<stdio.h>
 #include<math.h>
+#define N 500
 
  long double cossinus( long double x){
     long double a, S ;
     int k=0;
+    
 
-    a = pow(-1,k)*pow(x ,4*k) /(1.) ;
+    a = (long double)1.*pow(-1,k)*pow(x ,4*k) /(1.) ;
     S=a;
     printf("a%d = %.2f \t%8.2f \t%8.2f \n",k,x,a,S);
     k++;
 
-    while (k<501)
+    while (k<N+1)
     {
-        a =  a * (-1) *x / ((2*k)) ;
+        a =  a * (-1) *x*x*x*x / ((4*k*k-2*k)) ;
         S = S + a ; 
-        if(k==499||k==500){
-            printf("a%d = %.2f \t%8.2f \t%8.2f \n",k,x,a,S);
+        if(k==N-1||k==N){
+            printf("a%d = %lf \t%le \t%lf \n",k,x,a,S);
         }
         k++;
         
@@ -32,8 +34,8 @@ int  main(void){
     scanf("%lf",&x);
     y=cos(x*x);
     yy=cossinus(x);
-    printf("sin(%lf*%lf) = %Lf\n",x,x,y);
-    printf("sin(%lf) caur summu:  %Lf\n",x,yy);
+    printf("sin(%lf^2) = %Lf\n",x,y);
+    printf("sin(%lf^2) caur summu:  %Lf\n",x,yy);
     printf(" \n          500\n");
     printf("          ______\n");
     printf("          \\             k    4*k\n");
@@ -43,9 +45,11 @@ int  main(void){
     printf("          /_____\n");
     printf("           k=0\n");
     printf("\n");
-    printf("                           -x\n");
-    printf("rekurences reizinātājs : ______\n");
-    printf("                           2k\n");
+    printf("                               4\n");
+    printf("                            -x\n");
+    printf("rekurences reizinātājs : __________\n");
+    printf("                            2\n");
+    printf("                          4k - 2k\n");
     
 
 }
