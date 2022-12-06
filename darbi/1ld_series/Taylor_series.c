@@ -3,21 +3,22 @@
 #define N 500
 
  long double cossinus( long double x){
-    long double a, S ;
+    long double a = 1.L,S;
     int k=0;
     
 
-    a = (long double)1.*pow(-1,k)*pow(x ,4*k) /(1.) ;
+    //a = (long double)1.L*pow(-1,k)*pow(x ,4*k) /(1.) ;
     S=a;
-    printf("a%d = %.2f \t%8.2f \t%8.2f \n",k,x,a,S);
+    printf("a%d = %.2Lf \t%8.2Le \t%8.2Lf \n",k,x,a,S);
     k++;
 
     while (k<N+1)
     {
         a =  a * (-1) *x*x*x*x / ((4*k*k-2*k)) ;
         S = S + a ; 
-        if(k==N-1||k==N){
-            printf("a%d = %lf \t%le \t%lf \n",k,x,a,S);
+        //if(k==N-1||k==N)
+        {
+            printf("a%d = %Lf \t%Le \t%Lf \n",k,x,a,S);
         }
         k++;
         
