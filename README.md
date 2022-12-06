@@ -117,6 +117,11 @@ Cikla operātori:
  ![](https://wikimedia.org/api/rest_v1/media/math/render/svg/8b69336ccc4ac01e987587988d0a7317ff6f237c)  
  Gadījumā, ja a = 0, tad šo rindu sauc par Maklorena rindu
  
- #29.novebris
+ # 29.novebris
  
  - you.com
+
+# 6. decebris
+
+Skaitliskā integrēšana
+
