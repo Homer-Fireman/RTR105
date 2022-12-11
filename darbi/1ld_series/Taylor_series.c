@@ -16,7 +16,7 @@
     {
         a =  a * (-1) *x*x*x*x / ((4*k*k-2*k)) ;
         S = S + a ; 
-        //if(k==N-1||k==N)
+        if(k==N-1||k==N)
         {
             printf("a%d = %Lf \t%Le \t%Lf \n",k,x,a,S);
         }
@@ -32,11 +32,11 @@ int  main(void){
     
 
     printf("cos(x^2) aprēķināšana:\nIevadiet argumentu x:");
-    scanf("%lf",&x);
+    scanf("%Lf",&x);
     y=cos(x*x);
     yy=cossinus(x);
-    printf("sin(%lf^2) = %Lf\n",x,y);
-    printf("sin(%lf^2) caur summu:  %Lf\n",x,yy);
+    printf("sin(%Lf^2) = %Lf\n",x,y);
+    printf("sin(%Lf^2) caur summu:  %Lf\n",x,yy);
     printf(" \n          500\n");
     printf("          ______\n");
     printf("          \\             k    4*k\n");
