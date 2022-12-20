@@ -18,10 +18,17 @@ int main(void){
 
         if(dec<0){
             printf("Error! Factorial of a negative number doesn't exist.\n");
+            return 2;
         }else{
             while(i<=dec){
             res=res*i;
             i++;
+            if(i>=5){
+                if((res%10)!=0){
+                printf("correctly calculate value of factorial of entered number with selected data type is not possible\n");
+                return 3;
+                }
+            }
         }
         printf("Factorial of %d is %d\n",dec,res);
         }
@@ -38,10 +45,17 @@ int main(void){
 
             if(dec<0){
                 printf("Error! Factorial of a negative number doesn't exist.\n");
+                return 2;
             }else{
                 while(i<=dec){
                 res=res*i;
                 i++;
+                if(i>=5){
+                    if((res%10)!=0){
+                    printf("correctly calculate value of factorial of entered number with selected data type is not possible\n");
+                    return 3;
+                    }
+            }
             }
             printf("Factorial of %d is %d\n",dec,res);
             }
@@ -56,10 +70,17 @@ int main(void){
 
                     if(dec<0){
                         printf("Error! Factorial of a negative number doesn't exist.\n");
+                        return 2;
                     }else{
                         while(i<=dec){
                         res=res*i;
                         i++;
+                        if(i>=5){
+                            if((res%10)!=0){
+                            printf("correctly calculate value of factorial of entered number with selected data type is not possible\n");
+                            return 3;
+                            }
+                        }
                     }
                     printf("Factorial of %lld is %lld\n",dec,res);
                     }

@@ -15,7 +15,8 @@ switch (data_type)
     case 'c':
     {
         char result = 1;
-        for (int i=1;i <= num;i++)
+        int i = 1;
+        while (i <= num)
         {
             result *= i;
             if (result < 0)
@@ -23,6 +24,7 @@ switch (data_type)
                 printf("Error: Overflow occurred while calculating factorial.\n");
                 break;
             }
+            i++;
         }
         if (result >= 0)
             printf("Factorial of %d is %d.\n", num, result);
@@ -31,7 +33,8 @@ switch (data_type)
     case 'i':
     {
         int result = 1;
-        for (int i=1;i <= num;i++)
+        int i = 1;
+        while (i <= num)
         {
             result *= i;
             if (result < 0)
@@ -39,6 +42,7 @@ switch (data_type)
                 printf("Error: Overflow occurred while calculating factorial.\n");
                 break;
             }
+            i++;
         }
         if (result >= 0)
             printf("Factorial of %d is %d.\n", num, result);
@@ -47,7 +51,8 @@ switch (data_type)
     case 'l':
     {
         long long int result = 1;
-        for (int i=1;i <= num;i++)
+        int i = 1;
+        while (i <= num)
         {
             result *= i;
             if (result < 0)
@@ -55,6 +60,7 @@ switch (data_type)
                 printf("Error: Overflow occurred while calculating factorial.\n");
                 break;
             }
+            i++;
         }
         if (result >= 0)
             printf("Factorial of %d is %lld.\n", num, result);
