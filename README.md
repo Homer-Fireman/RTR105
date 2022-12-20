@@ -121,7 +121,7 @@ Cikla operātori:
  
  - you.com
 
-# 6. decebris
+# 13. decebris
 
-Skaitliskā integrēšana
+Burbuļu metode
 
