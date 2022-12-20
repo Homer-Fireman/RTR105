@@ -120,8 +120,13 @@ Cikla operātori:
  # 29.novebris
  
  - you.com
+ 
+ 
 
-# 6. decebris
+# 13. decebris
 
-Skaitliskā integrēšana
+Burbuļu metode
 
+# 20.decebris
+ 
+ -https://riptutorial.com/c/example/3250/calling-a-function-from-another-c-file
