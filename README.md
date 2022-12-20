@@ -120,8 +120,13 @@ Cikla operātori:
  # 29.novebris
  
  - you.com
+ 
+ 
 
 # 13. decebris
 
 Burbuļu metode
 
+# 20.decebris
+ 
+ -https://riptutorial.com/c/example/3250/calling-a-function-from-another-c-file
