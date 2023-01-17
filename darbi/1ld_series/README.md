@@ -2,8 +2,8 @@
 Programma mēģina aprēķināt un parādīt cos(x^2) izmantojot divas metodes: built-in math library funkciju cos() un pielāgotu funkciju cossinus().
 
 ## Metodes apraksts
-1. Pirmā metode ir izmantot built-in math library funkciju cos(), kas tiek nodrošināta C valodas standarta bibliotēkā un ir gatava lietošanai. Šī metode tiek izmantota kā pārbaudes metode, lai pārliecinātos, vai otrā metode strādā pareizi.
-2. Otra metode ir izmantot pielāgotu funkciju cossinus(), kas aprēķina cos(x^2) izmantojot Teilora rindu paplašinājumu. Teilora rinda ir funkcijas atveidojums kā bezgalīgas summu virkne, kas tiek aprēķināta, izmantojot funkcijas vērtības un tās atvasinājumus noteiktā punktā. Tā sāk ar mainīgo 'a' inicializēšanu ar 1 un 'S' ar 0, pēc tam atkārtoti reizina 'a' ar -1*x*x*x*x/(4*k*k-2*k) un pievieno to 'S' katrā iterācijā. Programma izvada 'a' un 'S' vērtības k = N-1 un N.
+1. Pirmā metode ir izmantot built-in math library funkciju cos(), kas tiek nodrošināta C valodas standarta bibliotēkā un ir gatava lietošanai. Šī metode tiek izmantota kā pārbaudes metode, lai pārliecinātos, vai otrā metode strādā pareizi.[1]
+2. Otra metode ir izmantot pielāgotu funkciju cossinus(), kas aprēķina cos(x^2) izmantojot Teilora rindu paplašinājumu. Teilora rinda ir funkcijas atveidojums kā bezgalīgas summu virkne, kas tiek aprēķināta, izmantojot funkcijas vērtības un tās atvasinājumus noteiktā punktā. Tā sāk ar mainīgo 'a' inicializēšanu ar 1 un 'S' ar 0, pēc tam atkārtoti reizina 'a' ar -1*x*x*x*x/(4*k*k-2*k) un pievieno to 'S' katrā iterācijā. Programma izvada 'a' un 'S' vērtības k = N-1 un N.[2]
 
 ## Teilora rindas paplašinājums
 Teilora sērija ir funkcijas attēlojums kā bezgalīga terminu summa, ko aprēķina pēc funkcijas vērtībām un tās atvasinājumiem vienā punktā. Funkcijas f(x) Teilora sērijas izvērsums par punktu x = a tiek uzdots:  
@@ -13,7 +13,13 @@ kur f'(a) ir f(x) pirmais atvasinājums, kas novērtēts pie x=a, f''(a) ir otra
 
 ## Metodes plusi un mīnusi
 
-## Metodes plusi un mīnusi
 
 - Pirmā metode ir vienkārša un ērta lietošanā, jo tā ir gatava lietošanai un neprasa nekādus papildus aprēķinus. Tomēr tā var būt mazāk precīza, salīdzinot ar Teilora rindas paplašinājumu.
-- Otrā metode ir precīzāka, jo tā izmanto Teilora rindas paplašinājumu, kur katrs termins ir funkcijas tuvējās vērtības aprēķins, un jo vairāk termiņu tiek iekļauti, jo precīzāks kļūst aprēķins. Tomēr tā prasa vairāk aprēķinu un var būt sarežģītāka izstrādē.
+- Otrā metode ir precīzāka, jo tā izmanto Teilora rindas paplašinājumu, kur katrs termins ir funkcijas tuvējās vērtības aprēķins, un jo vairāk termiņu tiek iekļauti, jo precīzāks kļūst aprēķins. Tomēr tā prasa vairāk aprēķinu un var būt sarežģītāka izstrādē.  
+
+![](https://github.com/Homer-Fireman/RTR105/blob/main/darbi/1ld_series/Screenshot%202023-01-17%20at%2012.56.06.png?raw=true)  
+![](https://github.com/Homer-Fireman/RTR105/blob/main/darbi/1ld_series/Taylor_series.png?raw=true)
+
+## References
+1. [Taylor Series Expansion](https://en.wikipedia.org/wiki/Taylor_series)
+2. [Cosine Function](https://en.wikipedia.org/wiki/Cosine)
