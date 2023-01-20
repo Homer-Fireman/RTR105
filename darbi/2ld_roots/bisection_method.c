@@ -1,12 +1,12 @@
 #include <stdio.h>
 #include <math.h>
 
-// Function prototype for f(x)-c
+// Function prototype for f(x,c)
 double f(double x, double c);
 
 int main()
 {
-  // Declare variables for a, b, c,precision 
+  // Declare variables for a, b, c, and precision
   double a, b, c, precision;
 
   // Prompt user for input values for a, b, c, and precision
@@ -19,10 +19,9 @@ int main()
   printf("Enter value for precision: ");
   scanf("%lf", &precision);
 
-  double funkca=f(a,c);
+  double funkca = f(a,c);
 
-
-  // Check if f(a) * f(b) > 0
+  // Check if f(a,c) * f(b,c) > 0
   if (f(a,c) * f(b,c) > 0)
   {
     // Print a message indicating that there are no roots or a pair number of roots
@@ -33,9 +32,10 @@ int main()
     // Calculate the value of x using the bisection method
     double x = (a + b) / 2.0;
     int iterations = 0;
+    //while (fabs(f(x,c) - c) > precision)
     while (fabs(b-a) > precision)
     {
-      if (funkca*f(x,c) > c)
+      if (funkca * f(x,c) > 0)
       {
         a = x;
       }
@@ -56,15 +56,12 @@ int main()
   return 0;
 }
 
-// Function definition for f(x)
+// Function definition for f(x,c)
 double f(double x, double c)
 {
   // Return the value of f(x^2)
   return cos(x * x) - c;
 }
-
-
-
 
 
 
