@@ -20,11 +20,18 @@ Tas tiek darīts, izmantojot ciklu un pārrēķinot funkcijas vērtību katram x
 
 Plusi: Šī metode ir vēl precīzāka nekā trapecveida metode, jo tā ņem vērā vēl vairāk funkcijas izmaiņas starp x punktiem.
 Mīnusi: Tā var būt sarežģītāka un laikietilpīgāka nekā trapecveida metode un prasa vēl vairāk aprēķinu un parbaudi.
-Galvenais mīnuss abām metodēm ir tāds, ka tās ir aprēķinu un parbaužu intensīvas un var būt neprecīzas, ja funkcijas izmaiņas ir pārāk lielas starp x punktiem.
+Galvenais mīnuss abām metodēm ir tāds, ka tās ir aprēķinu un parbaužu intensīvas un var būt neprecīzas, ja funkcijas izmaiņas ir pārāk lielas starp x punktiem.  
+
+![](https://github.com/Homer-Fireman/RTR105/blob/main/darbi/4ld_integral/Screenshot%202023-01-20%20at%2022.50.58.png?raw=true)  
+
+![](https://github.com/Homer-Fireman/RTR105/blob/main/darbi/4ld_integral/Screenshot%202023-01-20%20at%2022.50.25.png?raw=true)
 
 ## Atsauces
 
+1. **Taisnstūra metode [taisnstūra metodi][1]**
+2. **Trapecveida metode [trapecveida metodi][2]**
+3. **Simpson metode [Simpson metodi][3]**
 
-
-
-
+[1]: https://engcourses-uofa.ca/books/numericalanalysis/numerical-integration/rectangle-method/
+[2]: https://en.wikipedia.org/wiki/Trapezoidal_rule
+[3]: https://en.wikipedia.org/wiki/Simpson%27s_rule
