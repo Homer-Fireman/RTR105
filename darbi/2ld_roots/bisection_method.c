@@ -6,9 +6,8 @@ double f(double x, double c);
 
 int main()
 {
-  // Declare variables for a, b, c,precision and funkca
+  // Declare variables for a, b, c,precision 
   double a, b, c, precision;
-  double funkca=f(a,c);
 
   // Prompt user for input values for a, b, c, and precision
   printf("Enter value for a: ");
@@ -19,6 +18,9 @@ int main()
   scanf("%lf", &c);
   printf("Enter value for precision: ");
   scanf("%lf", &precision);
+
+  double funkca=f(a,c);
+
 
   // Check if f(a) * f(b) > 0
   if (f(a,c) * f(b,c) > 0)
@@ -47,7 +49,7 @@ int main()
 
     // Print the result
     printf("x = %lf\n", x);
-    printf("f(x) = %lf\n", f(x,c));
+    printf("f(x) = %lf\n", f(x,0));
     printf("Iterations: %d\n", iterations);
   }
 
