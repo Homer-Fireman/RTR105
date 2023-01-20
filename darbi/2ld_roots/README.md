@@ -16,4 +16,13 @@ Dihotomijas metode ir vienkārša un efektīva metode, lai meklētu saknes, un t
  Viens no šīs metodes trūkumiem ir tas, ka tā var ilgt ilgu laiku, lai atrastu precīzu sakņu vērtību, jo tā ir iteratīva metode, un nevar garantēt, ka tā atradīs sakni. Kā arī Dihometrijas metode nav domāta pāra sakņu atrašanai.
 
 ## References
-1. [Dihotomijas metode](https://en.wikipedia.org/wiki/Bisection_method)
+1. [Dihotomijas metode](https://en.wikipedia.org/wiki/Bisection_method)    
+
+
+## Programmas izvads
+   
+![](https://github.com/Homer-Fireman/RTR105/blob/main/darbi/2ld_roots/Screenshot%202023-01-20%20at%2015.48.48.png?raw=true)  
+
+## cos(x*x)=0.36 no 0 līdz 2
+   
+![](https://github.com/Homer-Fireman/RTR105/blob/main/darbi/2ld_roots/Screenshot%202023-01-20%20at%2015.50.26.png?raw=true)
