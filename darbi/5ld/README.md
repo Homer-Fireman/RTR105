@@ -22,4 +22,4 @@ Note:
 - Programma ir ierobežota tikai ar simbolu masīviem.
 
   
-![]()
+![](https://github.com/Homer-Fireman/RTR105/blob/main/darbi/5ld/Screenshot%202023-01-19%20at%2015.43.57.png?raw=true)
