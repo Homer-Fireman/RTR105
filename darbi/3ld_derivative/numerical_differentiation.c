@@ -1,64 +1,54 @@
 #include <stdio.h>
 #include <math.h>
 
-// Function to calculate f(x) = cos(x*x)
-double f(double x)
-{
-    return cos(x*x);
-}
+int main() {
+    double a, b, precision;
+    double x, fx, fdx, fddx;
+    double fdx_fd, fddx_fd;
+    FILE *derivativeFile;
 
-// Function to calculate the first derivative of f(x) analytically
-double df(double x)
-{
-    return -2*x*sin(x*x);
-}
-
-// Function to calculate the second derivative of f(x) analytically
-double ddf(double x)
-{
-    return -2*(2*x*x*cos(x*x) - 1);
-}
-
-int main(void)
-{
-    // Declare variables
-    double a, b, h, x, y, dy, ddy;
-    int i, n;
-
-    // Get values of a, b, and precision from the user
-    printf("Enter value of a: ");
+    printf("Enter the value of a: ");
     scanf("%lf", &a);
-    printf("Enter value of b: ");
+    printf("Enter the value of b: ");
     scanf("%lf", &b);
-    printf("Enter precision: ");
-    scanf("%lf", &h);
+    printf("Enter the precision: ");
+    scanf("%lf", &precision);
 
-    // Calculate number of steps to take
-    n = (int)((b-a)/h + 0.5);
+    derivativeFile = fopen("derivative.dat", "w");
+    fprintf(derivativeFile, "x f(x) f'(x) (analytical) f'(x) (fd) f''(x) (analytical) f''(x) (fd)\n");
 
-    // Open file to save data
-    FILE *fp = fopen("derivative.dat", "w");
-    if (fp == NULL)
-    {
-        printf("Error opening file!\n");
-        return 1;
+    for (x = a; x <= b; x += precision) {
+        fx = cos(x*x);
+        fdx = -2*x*sin(x*x);
+        fddx = -2*sin(x*x) - 4*x*x*cos(x*x);
+
+        printf("f(%.2lf) = %.2lf\n", x, fx);
+
+        printf("f'(%.2lf) (analytical) = %.2lf\n", x, fdx);
+
+        //forward difference calculation
+        if (x + precision <= b) {
+            double fx_next = cos((x+precision)*(x+precision));
+            fdx_fd = (fx_next - fx) / precision;
+            printf("f'(%.2lf) (forward difference) = %.2lf\n", x, fdx_fd);
+        }
+
+        printf("f''(%.2lf) (analytical) = %.2lf\n", x, fddx);
+
+        //forward difference calculation
+        if (x + precision <= b) {
+            double fdx_next = -2*(x+precision)*sin((x+precision)*(x+precision));
+            fddx_fd = (fdx_next - fdx) / precision;
+            printf("f''(%.2lf) (forward difference) = %.2lf\n", x, fddx_fd);
+        }
+
+        fprintf(derivativeFile, "%.2lf %.2lf %.2lf %.2lf %.2lf %.2lf\n", x, fx, fdx, fdx_fd, fddx, fddx_fd);
     }
 
-    // Write data to file
-    for (i = 0; i <= n; i++)
-    {
-        x = a + i*h;
-        y = f(x);
-        dy = df(x);
-        ddy = ddf(x);
-
-        fprintf(fp, "%lf %lf %lf %lf\n", x, y, dy, ddy);
-
-        printf("x = %lf, f(x) = %lf, f'(x) = %lf, f''(x) = %lf\n", x, y, dy, ddy);
-    }
-
-    // Close file
-    fclose(fp);
-
+    fclose(derivativeFile);
     return 0;
 }
+
+
+
+//https://chat.openai.com/chat
