@@ -18,13 +18,13 @@ Analītiskā formula, ko izmanto, lai aprēķinātu f(x) = cos(x^2) otro atvasin
 
 f''(x) = -2sin(x^2) - 4x^2cos(x^2)
 
-Forward starpības metode, ko izmanto, lai tuvinātu f(x) pirmo atvasinājumu, ir:
+Skaitlisko atvasinājumu metode, ko izmanto, lai tuvinātu f(x) pirmo atvasinājumu, ir:
 
 f'(x) ≈ (f(x+h) - f(x)) / h
 
 kur h ir x vērtību starpība starp punktu, kurā tiek aprēķināts atvasinājums, un tuvējo punktu.
 
-Tiešās starpības metode, ko izmanto, lai tuvinātu f(x) otro atvasinājumu, ir:
+Skaitlisko atvasinājumu metode, ko izmanto, lai tuvinātu f(x) otro atvasinājumu, ir:
 
 f''(x) ≈ (f'(x+h) - f'(x)) / h
 
