@@ -29,3 +29,7 @@ Tiešās starpības metode, ko izmanto, lai tuvinātu f(x) otro atvasinājumu, i
 f''(x) ≈ (f'(x+h) - f'(x)) / h
 
 kur h ir x vērtību starpība starp punktu, kurā tiek aprēķināts atvasinājums, un tuvējo punktu.
+
+## Grafiki
+
+![](https://github.com/Homer-Fireman/RTR105/blob/main/darbi/3ld_derivative/derivative_graph.png?raw=true)
